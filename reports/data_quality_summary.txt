@@ -1,0 +1,25 @@
+DATA QUALITY SUMMARY
+
+Datasets Analysed:
+1. Fund Master
+2. NAV History
+3. AUM by Fund House
+4. Monthly SIP Inflows
+5. Category Inflows
+6. Industry Folio Count
+7. Scheme Performance
+8. Investor Transactions
+9. Portfolio Holdings
+10. Benchmark Indices
+
+Observations:
+
+- All datasets loaded successfully.
+- Data types are consistent across files.
+- No missing values found in 9 out of 10 datasets.
+- Monthly SIP Inflows contains 12 missing values in yoy_growth_pct.
+  This is expected because YoY growth cannot be computed for the initial months without prior-year data.
+- AMFI code validation completed successfully.
+- All 40 AMFI scheme codes in Fund Master are present in NAV History.
+- No schema inconsistencies detected.
+- Datasets are suitable for downstream analytics and dashboard development.
