@@ -32,3 +32,13 @@ for script in scripts:
         break
 
 print("\nETL Pipeline Completed")
+
+print("\n" + "="*50)
+print("DATA VALIDATION SUMMARY")
+print("="*50)
+
+print(f"Fund Master Rows: {len(pd.read_csv('data/processed/01_fund_master_clean.csv'))}")
+print(f"NAV History Rows: {len(pd.read_csv('data/processed/02_nav_history_clean.csv'))}")
+print(f"Transactions Rows: {len(pd.read_csv('data/processed/08_investor_transactions_clean.csv'))}")
+
+print("\nETL PIPELINE SUCCESSFULLY COMPLETED")

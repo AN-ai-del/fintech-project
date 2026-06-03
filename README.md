@@ -33,3 +33,11 @@ notebooks/
 ## Author
 
 Anushka Das
+
+## Day 2 - Data Cleaning & Database
+
+- Built SQLite star schema
+- Cleaned 10 datasets
+- Validated AMFI fund mapping
+- Ensured zero missing critical values
+- Loaded structured data into SQLite database
