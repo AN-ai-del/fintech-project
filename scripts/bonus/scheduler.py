@@ -1,21 +1,30 @@
-import os
+import schedule
+import subprocess
 import time
-from datetime import datetime
 
-print("Scheduler started...")
+
+def fetch_nav():
+
+    print("Running NAV fetch...")
+
+    subprocess.run(
+        [
+            "py",
+            "scripts/bonus/live_nav_fetch.py"
+        ]
+    )
+
+
+schedule.every().monday.at("20:00").do(fetch_nav)
+schedule.every().tuesday.at("20:00").do(fetch_nav)
+schedule.every().wednesday.at("20:00").do(fetch_nav)
+schedule.every().thursday.at("20:00").do(fetch_nav)
+schedule.every().friday.at("20:00").do(fetch_nav)
+
+print("Scheduler started")
 
 while True:
-    now = datetime.now()
 
-    # Run weekdays at 8 PM
-    if now.weekday() < 5 and now.hour == 20 and now.minute == 0:
-        print("Running ETL pipeline...")
+    schedule.run_pending()
 
-        os.system("py scripts/live_nav_fetch.py")
-        os.system("py scripts/load_sqlite.py")
-
-        print("ETL completed successfully")
-
-        time.sleep(60)
-
-    time.sleep(30)
+    time.sleep(60)
