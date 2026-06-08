@@ -219,6 +219,31 @@ Measures largest decline from peak value.
 
 ---
 
+## Day 5 Progress – Dashboard Development
+
+### Completed
+- Imported cleaned datasets into Power BI
+- Established data relationships
+- Built Industry Overview dashboard
+- Added KPI cards:
+  - Total Industry AUM
+  - Latest SIP Inflow
+  - Total Folios
+  - Number of Schemes
+- Created Industry AUM Growth visualization
+- Created AUM by Fund House comparison chart
+- Built Fund Performance & Risk page
+- Added Risk vs Return scatter plot
+- Added Fund Performance Scorecard
+- Added NAV Trend analysis chart
+- Added slicers for Fund House, Category and Plan
+
+### Pending
+- Investor Analytics page
+- SIP & Market Trends page
+- Drill-through functionality
+- Dashboard export (PDF and PNG)
+
 ## Bonus Work
 
 ### Automated Scheduler
