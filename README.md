@@ -277,6 +277,29 @@ Measures largest decline from peak value.
 
 ![SIP Trends](reports/dashboard/sip_market_trends.png)
 
+## Day 6 - Advanced Analytics + Risk Metrics
+
+Completed advanced mutual fund analytics including:
+
+- Historical VaR at 95%
+- CVaR / Expected Shortfall
+- Rolling 90-day Sharpe Ratio
+- Investor cohort analysis
+- SIP continuity risk flagging
+- Rule-based fund recommender
+- Sector HHI concentration analysis
+
+Generated deliverables:
+
+- notebooks/Advanced_Analytics.ipynb
+- data/processed/var_cvar_report.csv
+- data/processed/investor_cohort_analysis.csv
+- data/processed/sip_continuity_report.csv
+- data/processed/fund_recommendations.csv
+- data/processed/sector_hhi_report.csv
+- scripts/recommender.py
+- reports/charts/rolling_sharpe_chart.png
+
 ## Bonus Work
 
 ### Automated Scheduler

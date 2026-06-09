@@ -1,0 +1,13 @@
+risk_appetite,amfi_code,scheme_name,fund_house,category,sharpe_ratio,return_3yr_pct,risk_grade
+Low,120507,ICICI Pru Liquid Fund - Regular - Growth,ICICI Prudential MF,Liquid,7.68,7.68,Low
+Low,120844,Kotak Liquid Fund - Regular - Growth,Kotak Mahindra MF,Liquid,6.18,6.18,Low
+Low,101208,ABSL Liquid Fund - Regular - Growth,Aditya Birla Sun Life MF,Liquid,5.14,5.14,Low
+Moderate,148567,Mirae Asset Large Cap Fund - Regular - Growth,Mirae Asset MF,Large Cap,1.06,14.81,Moderate
+Moderate,100016,HDFC Top 100 Fund - Regular Plan - Growth,HDFC Mutual Fund,Large Cap,1.06,14.84,Moderate
+Moderate,120504,ICICI Pru Bluechip Fund - Direct - Growth,ICICI Prudential MF,Large Cap,1.03,14.41,Moderate
+High,120842,Kotak Emerging Equity Fund - Regular - Growth,Kotak Mahindra MF,Mid Cap,0.96,18.23,High
+High,120505,ICICI Pru Midcap Fund - Regular - Growth,ICICI Prudential MF,Mid Cap,0.95,18.08,High
+High,149323,DSP Midcap Fund - Regular - Growth,DSP Mutual Fund,Mid Cap,0.9,17.16,High
+Very High,119598,SBI Small Cap Fund - Regular Plan - Growth,SBI Mutual Fund,Small Cap,0.94,23.39,Very High
+Very High,119599,SBI Small Cap Fund - Direct Plan - Growth,SBI Mutual Fund,Small Cap,0.93,23.14,Very High
+Very High,101207,ABSL Small Cap Fund - Regular - Growth,Aditya Birla Sun Life MF,Small Cap,0.9,22.38,Very High
