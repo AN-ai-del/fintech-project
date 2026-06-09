@@ -238,11 +238,44 @@ Measures largest decline from peak value.
 - Added NAV Trend analysis chart
 - Added slicers for Fund House, Category and Plan
 
-### Pending
-- Investor Analytics page
-- SIP & Market Trends page
-- Drill-through functionality
-- Dashboard export (PDF and PNG)
+## Power BI Dashboard
+
+### Dashboard Pages
+
+- Industry Overview
+- Fund Performance Analysis
+- Investor Analytics
+- SIP & Market Trends
+- NAV Detail Drill-through Page
+
+### Key Features
+
+- Interactive Power BI dashboard
+- Risk vs Return Analysis
+- NAV Trend Tracking
+- Investor Demographic Analysis
+- SIP Growth Monitoring
+- Category-wise Inflow Analysis
+- Drill-through Navigation
+- Bluestock Themed Visuals
+
+### Dashboard Screenshots
+
+#### Industry Overview
+
+![Industry Overview](reports/dashboard/industry_overview.png)
+
+#### Fund Performance
+
+![Fund Performance](reports/dashboard/fund_performance.png)
+
+#### Investor Analytics
+
+![Investor Analytics](reports/dashboard/investor_analysis.png)
+
+#### SIP & Market Trends
+
+![SIP Trends](reports/dashboard/sip_market_trends.png)
 
 ## Bonus Work
 
