@@ -301,6 +301,21 @@ Generated deliverables:
 - reports/charts/rolling_sharpe_chart.png
 
 ## Bonus Work
+## Bonus Challenge B2 – Streamlit Dashboard
+
+A fully interactive web application was developed using Streamlit as an alternative to Power BI.
+
+Features:
+- Industry Overview
+- Fund Performance Analytics
+- NAV Trend Explorer
+- Investor Analytics
+- SIP Market Trends
+- Fund Recommender
+
+Run locally:
+
+py -m streamlit run dashboard/streamlit/app.py
 
 ### Automated Scheduler
 
