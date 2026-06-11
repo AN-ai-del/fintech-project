@@ -301,6 +301,24 @@ Generated deliverables:
 - reports/charts/rolling_sharpe_chart.png
 
 ## Bonus Work
+
+## Bonus Challenge B1 – Automated NAV Scheduler
+
+A scheduled ETL process was created to automatically refresh mutual fund NAV data.
+
+Features:
+- Runs Monday to Friday
+- Scheduled execution at 8:00 PM
+- Automatically triggers NAV data refresh
+- Uses Python scheduling framework
+
+Files:
+- scripts/bonus/scheduler.py
+- scripts/bonus/live_nav_fetch.py
+
+Run locally:
+
+py scripts/bonus/scheduler.py
 ## Bonus Challenge B2 – Streamlit Dashboard
 
 A fully interactive web application was developed using Streamlit as an alternative to Power BI.
@@ -317,23 +335,45 @@ Run locally:
 
 py -m streamlit run dashboard/streamlit/app.py
 
-### Automated Scheduler
+## Bonus Challenge B3 – Mutual Fund Return Prediction
 
-Implemented a scheduler script for future automation tasks.
+A machine learning-based mutual fund return prediction model was developed using Random Forest Regression.
 
-File:
+Features:
+- Predicts 3-Year Mutual Fund Returns
+- Uses Fund Performance Metrics as Input Features
+- Feature Importance Analysis
+- Model Evaluation using MAE, RMSE, and R² Score
+- Exported Trained Model for Future Predictions
+- Generated Prediction Output Dataset
 
-```text
-scripts/bonus/scheduler.py
-```
+Input Features:
+- Expense Ratio
+- Sharpe Ratio
+- Sortino Ratio
+- Alpha
+- Beta
+- Annualized Standard Deviation
+- Maximum Drawdown
 
-Future enhancements:
+Model Performance:
+- MAE: 1.07
+- RMSE: 1.55
+- R² Score: 0.9058
 
-* Automated NAV fetching
-* Scheduled ETL execution
-* Report generation
+Key Finding:
+- Annualized Volatility (Standard Deviation) was the most influential factor affecting long-term mutual fund returns.
 
----
+Outputs:
+- models/fund_return_predictor.pkl
+- reports/charts/fund_feature_importance.png
+- data/processed/fund_feature_importance.csv
+- data/processed/fund_return_predictions.csv
+
+Run locally:
+
+py .\ml\fund_predictor.py
+
 
 ## Git Workflow
 
