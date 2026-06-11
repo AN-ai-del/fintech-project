@@ -393,6 +393,45 @@ Run locally:
 
 py .\ml\monte_carlo_simulation.py
 
+## Bonus Challenge B5 – Markowitz Efficient Frontier
+
+Implemented Modern Portfolio Theory (Markowitz Portfolio Optimization) using historical mutual fund returns.
+
+Features:
+- Portfolio risk-return optimization
+- 5-fund portfolio allocation
+- 5000 simulated portfolios
+- Sharpe Ratio maximization
+- Efficient Frontier visualization
+
+Outputs:
+- data/processed/efficient_frontier_results.csv
+- reports/charts/efficient_frontier.png
+
+Run locally:
+
+py .\ml\markowitz_optimizer.py
+
+## Bonus Challenge B6 – Automated HTML Report Generator
+
+An automated HTML reporting system was developed to generate a weekly mutual fund performance summary.
+
+Features:
+- Automatically loads processed analytics datasets
+- Generates KPI summary cards
+- Shows top funds by Sharpe Ratio
+- Highlights highest downside risk funds using VaR and CVaR
+- Summarizes Monte Carlo NAV forecast
+- Summarizes Markowitz Efficient Frontier results
+- Includes fund recommendation snapshot
+
+Outputs:
+- reports/weekly_performance_report.html
+
+Run locally:
+
+py .\automation\generate_report.py
+
 
 ## Git Workflow
 
