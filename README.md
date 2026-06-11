@@ -374,6 +374,25 @@ Run locally:
 
 py .\ml\fund_predictor.py
 
+## Bonus Challenge B4 – Monte Carlo NAV Simulation
+
+A Monte Carlo simulation model was created to project possible future NAV paths for a selected mutual fund over a 5-year horizon.
+
+Features:
+- Uses historical daily NAV returns
+- Simulates 1,000 possible future NAV paths
+- Projects NAV movement over 5 trading years
+- Calculates mean projection, 5th percentile, and 95th percentile bands
+- Generates uncertainty-based NAV forecast chart
+
+Outputs:
+- data/processed/monte_carlo_results.csv
+- reports/charts/monte_carlo_simulation.png
+
+Run locally:
+
+py .\ml\monte_carlo_simulation.py
+
 
 ## Git Workflow
 
